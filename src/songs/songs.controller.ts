@@ -41,7 +41,7 @@ export class SongsController {
     )
     id: number,
   ) {
-    return `This action returns a #${typeof id} song`;
+    return `This action returns 2 a #${typeof id} song`;
   }
 
   @Put(':id')
